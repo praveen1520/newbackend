@@ -4,7 +4,7 @@ const cors=require("cors")
 const path=require("path")
 const {open}=require("sqlite")
 const sqlite3=require("sqlite3")
-const dbpath=path.join(__dirname,"Todo.db")
+const dbpath=path.join(__dirname,"todo.db")
 const app=express()
 const jsonMiddleware=express.json()
 app.use(jsonMiddleware);
